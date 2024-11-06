@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Tabellen stil */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+table, th, td {
+    border: 7px solid #7ddeef;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Tabellens hovede */
+th {
+    background-color: #a4f1ff;
+    color: #000000;
+}
+
+/* En anden række baggrundsfarve */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
